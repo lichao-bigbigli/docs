@@ -130,11 +130,11 @@ export default defineConfig({
 
     footer: {
       message: '基于 MIT 协议发布',
-      copyright: '版权所有 © 2024-present VitePress'
+      copyright: '版权所有 © 2026-present VitePress'
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' },
+      { icon: 'github', link: 'https://github.com/lichao-bigbigli/docs/' },
       { icon: 'twitter', link: 'https://twitter.com' }
     ],
 
