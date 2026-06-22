@@ -2,14 +2,14 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   lang: 'zh-CN',
-  title: 'VitePress',
-  description: '由 Vite 和 Vue 驱动的静态站点生成器',
+  title: 'bigbigli',
+  description: 'bigbigli的C++、算法、知识文库',
 
   base: '/docs/',
   appearance: true,
   ignoreDeadLinks: true,
   themeConfig: {
-    siteTitle: 'VitePress',
+    siteTitle: 'bigbigli',
 
     nav: [
       { text: '指南', link: '/guide/what-is-vitepress', activeMatch: '/guide/' },
@@ -67,57 +67,57 @@ export default defineConfig({
           ]
         }
       ],
-      '/reference/': [
-        {
-          text: '站点配置',
-          collapsed: false,
-          items: [
-            { text: '总览', link: '/reference/config' },
-            { text: '标题与描述', link: '/reference/config-title' },
-            { text: 'Head 标签', link: '/reference/config-head' },
-            { text: '构建选项', link: '/reference/config-build' }
-          ]
-        },
-        {
-          text: '主题配置',
-          collapsed: false,
-          items: [
-            { text: '导航栏', link: '/reference/theme-nav' },
-            { text: '侧边栏', link: '/reference/theme-sidebar' },
-            { text: '页脚', link: '/reference/theme-footer' },
-            { text: '社交链接', link: '/reference/theme-social' }
-          ]
-        },
-        {
-          text: 'Markdown',
-          collapsed: false,
-          items: [
-            { text: '语法扩展', link: '/reference/markdown-syntax' },
-            { text: '自定义容器', link: '/reference/markdown-containers' },
-            { text: '代码块', link: '/reference/markdown-code' }
-          ]
-        }
-      ],
-      '/examples/': [
-        {
-          text: '基础示例',
-          collapsed: false,
-          items: [
-            { text: 'Hello World', link: '/examples/hello-world' },
-            { text: '计数器', link: '/examples/counter' },
-            { text: '待办清单', link: '/examples/todo-list' }
-          ]
-        },
-        {
-          text: '进阶示例',
-          collapsed: false,
-          items: [
-            { text: '自定义主题', link: '/examples/custom-theme' },
-            { text: '国际化', link: '/examples/i18n' },
-            { text: '搜索', link: '/examples/search' }
-          ]
-        }
-      ],
+      // '/reference/': [
+      //   {
+      //     text: '站点配置',
+      //     collapsed: false,
+      //     items: [
+      //       { text: '总览', link: '/reference/config' },
+      //       { text: '标题与描述', link: '/reference/config-title' },
+      //       { text: 'Head 标签', link: '/reference/config-head' },
+      //       { text: '构建选项', link: '/reference/config-build' }
+      //     ]
+      //   },
+      //   {
+      //     text: '主题配置',
+      //     collapsed: false,
+      //     items: [
+      //       { text: '导航栏', link: '/reference/theme-nav' },
+      //       { text: '侧边栏', link: '/reference/theme-sidebar' },
+      //       { text: '页脚', link: '/reference/theme-footer' },
+      //       { text: '社交链接', link: '/reference/theme-social' }
+      //     ]
+      //   },
+      //   {
+      //     text: 'Markdown',
+      //     collapsed: false,
+      //     items: [
+      //       { text: '语法扩展', link: '/reference/markdown-syntax' },
+      //       { text: '自定义容器', link: '/reference/markdown-containers' },
+      //       { text: '代码块', link: '/reference/markdown-code' }
+      //     ]
+      //   }
+      // ],
+      // '/examples/': [
+      //   {
+      //     text: '基础示例',
+      //     collapsed: false,
+      //     items: [
+      //       { text: 'Hello World', link: '/examples/hello-world' },
+      //       { text: '计数器', link: '/examples/counter' },
+      //       { text: '待办清单', link: '/examples/todo-list' }
+      //     ]
+      //   },
+      //   {
+      //     text: '进阶示例',
+      //     collapsed: false,
+      //     items: [
+      //       { text: '自定义主题', link: '/examples/custom-theme' },
+      //       { text: '国际化', link: '/examples/i18n' },
+      //       { text: '搜索', link: '/examples/search' }
+      //     ]
+      //   }
+      // ],
       '/48-lessons/': [
         { text: '前言', link: '/48-lessons/preface' },
         {
@@ -228,7 +228,7 @@ export default defineConfig({
             { text: '第48课：图的最短路径', link: '/48-lessons/lesson-48' }
           ]
         },
-        { text: '信息学奥赛成长指南', link: '/48-lessons/appendix' }
+        { text: '附录：信息学奥赛成长指南', link: '/48-lessons/appendix' }
       ]
     },
 
