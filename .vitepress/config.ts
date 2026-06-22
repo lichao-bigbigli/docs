@@ -13,18 +13,18 @@ export default defineConfig({
 
     nav: [
       { text: '指南', link: '/guide/what-is-vitepress', activeMatch: '/guide/' },
-      { text: '参考', link: '/reference/config', activeMatch: '/reference/' },
-      { text: '示例', link: '/examples/', activeMatch: '/examples/' },
+      // { text: '参考', link: '/reference/config', activeMatch: '/reference/' },
+      // { text: '示例', link: '/examples/', activeMatch: '/examples/' },
       { text: '48课搞定信息学奥赛', link: '/48-lessons/', activeMatch: '/48-lessons/' },
       { text: '常见问题', link: '/faq', activeMatch: '/faq' },
-      {
-        text: '了解更多',
-        items: [
-          { text: 'GitHub', link: 'https://github.com/vuejs/vitepress' },
-          { text: '发布说明', link: 'https://github.com/vuejs/vitepress/releases' },
-          { text: '社区', link: '/community' }
-        ]
-      }
+      // {
+      //   text: '了解更多',
+      //   items: [
+      //     { text: 'GitHub', link: 'https://github.com/vuejs/vitepress' },
+      //     { text: '发布说明', link: 'https://github.com/vuejs/vitepress/releases' },
+      //     { text: '社区', link: '/community' }
+      //   ]
+      // }
     ],
 
     sidebar: {
@@ -244,7 +244,7 @@ export default defineConfig({
 
     footer: {
       message: '基于 MIT 协议发布',
-      copyright: '版权所有 © 2026-present VitePress'
+      copyright: '版权所有 © 2026-present bigbigli'
     },
 
     socialLinks: [
@@ -268,7 +268,7 @@ export default defineConfig({
 
     editLink: {
       pattern: 'https://github.com/lichao-bigbigli/docs/edit/main/:path',
-      text: '在 GitHub 上编辑此页'
+      text: '编辑'
     },
 
     lastUpdatedText: '最后更新于'
