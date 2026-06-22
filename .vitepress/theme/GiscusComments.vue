@@ -7,6 +7,11 @@ const { page } = useData()
 const commentsEl = ref(null)
 const isDocPage = ref(false)
 
+function getGiscusTheme() {
+  const isDark = document.documentElement.classList.contains('dark')
+  return isDark ? 'dark' : 'light'
+}
+
 function initGiscus() {
   if (!page.value?.frontmatter) return
   isDocPage.value = true
@@ -26,7 +31,7 @@ function initGiscus() {
       reactionsEnabled: '1',
       emitMetadata: '0',
       inputPosition: 'top',
-      theme: 'preferred_color_scheme',
+      theme: getGiscusTheme(),
       lang: 'zh-CN',
       loading: 'lazy',
     }
@@ -52,8 +57,19 @@ function initGiscus() {
   })
 }
 
+// 监听主题切换，实时更新评论区
+const themeObserver = new MutationObserver((mutations) => {
+  for (const m of mutations) {
+    if (m.attributeName === 'class') {
+      initGiscus()
+      break
+    }
+  }
+})
+
 onMounted(() => {
   initGiscus()
+  themeObserver.observe(document.documentElement, { attributes: true })
 })
 
 let timer = null
@@ -66,6 +82,7 @@ watch(() => route.path, () => {
 
 onBeforeUnmount(() => {
   clearTimeout(timer)
+  themeObserver.disconnect()
 })
 </script>
 
