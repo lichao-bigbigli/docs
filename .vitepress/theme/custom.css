@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --vp-c-brand: #646cff;
   --vp-c-brand-light: #747bff;
   --vp-c-brand-lighter: #9499ff;
@@ -7,4 +7,18 @@
 
   --vp-font-family-base: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   --vp-font-family-mono: 'JetBrains Mono', 'Fira Code', 'Fira Mono', Consolas, monospace;
+} */
+:root {
+  /* 浅色模式下的草绿色（主色） */
+  --vp-c-brand-1: #107c41; 
+  /* 浅色模式下的草绿色（悬停色） */
+  --vp-c-brand-2: #0f6c38;
+  --vp-c-brand-3: #139049;
+}
+
+.dark {
+  /* 深色模式下的草绿色（主色） */
+  --vp-c-brand-1: #4bb875; 
+  /* 深色模式下的草绿色（悬停色） */
+  --vp-c-brand-2: #3ca363;
 }
