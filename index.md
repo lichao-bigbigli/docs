@@ -2,31 +2,43 @@
 layout: home
 home: true
 hero:
-  name: VitePress
-  text: 由 Vite 和 Vue 驱动的静态站点生成器
-  tagline: 将 Markdown 变成优雅的文档，只需几分钟
+  name: <span class="cursive-text">bigbigli.com</span>
+  text: 信奥算法学习笔记
   actions:
     - theme: brand
-      text: 什么是 VitePress?
+      text: 指南
       link: /guide/what-is-vitepress
     - theme: alt
-      text: 快速开始
-      link: /guide/getting-started
+      text: 48课搞定信奥
+      link: /48-lessons/
     - theme: alt
-      text: GitHub
-      link: https://github.com/vuejs/vitepress
+      text: C++在线IDE
+      link: https://bigbigli.com/ide.html
 features:
-  - icon: 📝
-    title: 专注内容
-    details: 只需 Markdown 即可轻松创建美观的文档站点。
-  - icon: ⚡
-    title: 享受 Vite 无可比拟的体验
-    details: 服务器即时启动，闪电般的热更新，还可以使用基于 Vite 生态的插件。
-  - icon: 🛠️
-    title: 使用 Vue 自定义
-    details: 直接在 Markdown 中使用 Vue 语法和组件，或者使用 Vue 组件构建自定义主题。
-  - icon: 🚀
-    title: 速度真的很快！
-    details: 采用静态 HTML 实现快速的页面初次加载，使用客户端路由实现快速的页面切换导航。
+  - title: C++ 编程入门
+    details: 从零基础开始，系统学习C++编程语言，掌握信息学竞赛必备技能。
+  - title: 算法思维训练
+    details: 深入理解经典算法，提升编程思维能力，备战信息学奥赛。
+  - title: 循序渐进
+    details: 精心设计的课程体系，从入门到精通，循序渐进掌握编程技能。
+  - title: 实战演练
+    details: 丰富的例题和练习题，理论结合实践，巩固所学知识。
 ---
 
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+.cursive-text {
+  font-family: 'Great Vibes', cursive;
+  font-size: 4.5rem;
+  font-weight: 400;
+  color: #1e293b;
+  letter-spacing: 0.08em;
+}
+
+@media (max-width: 768px) {
+  .cursive-text {
+    font-size: 3rem;
+  }
+}
+</style>

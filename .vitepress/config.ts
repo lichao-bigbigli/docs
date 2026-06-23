@@ -2,21 +2,28 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   lang: 'zh-CN',
-  title: 'bigbigli',
-  description: 'bigbigli的C++、算法、知识文库',
+  title: '信奥算法学习笔记',
+  description: '信奥算法学习笔记 - C++编程、算法、信息学奥赛、知识文库、48课搞定信息学奥赛、常见问题、学习指南、AI、人工智能',
 
   base: '/docs/',
   appearance: true,
   ignoreDeadLinks: true,
+  
+  head: [
+    ['link', { rel: 'icon', type: 'image/png', href: '/docs/image.png' }]
+  ],
+
   themeConfig: {
-    siteTitle: 'bigbigli',
+    siteTitle: '信奥算法学习笔记',
+    logo: '/image.png',
 
     nav: [
-      { text: '指南', link: '/guide/what-is-vitepress', activeMatch: '/guide/' },
+      { text: '主页', link: '/', activeMatch: '^/$' },
+      // { text: '指南', link: '/guide/what-is-vitepress', activeMatch: '/guide/' },
       // { text: '参考', link: '/reference/config', activeMatch: '/reference/' },
       // { text: '示例', link: '/examples/', activeMatch: '/examples/' },
       { text: '48课搞定信息学奥赛', link: '/48-lessons/', activeMatch: '/48-lessons/' },
-      { text: '常见问题', link: '/faq', activeMatch: '/faq' },
+      // { text: '常见问题', link: '/faq', activeMatch: '/faq' },
       // {
       //   text: '了解更多',
       //   items: [

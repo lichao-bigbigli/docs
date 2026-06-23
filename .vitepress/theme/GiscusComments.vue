@@ -7,6 +7,11 @@ const { page } = useData()
 const commentsEl = ref(null)
 const isDocPage = ref(false)
 
+function isLocalhost() {
+  const hostname = window.location.hostname
+  return hostname === 'localhost' || hostname === '127.0.0.1'
+}
+
 function getGiscusTheme() {
   const isDark = document.documentElement.classList.contains('dark')
   return isDark ? 'dark' : 'light'
@@ -14,6 +19,8 @@ function getGiscusTheme() {
 
 function initGiscus() {
   if (!page.value?.frontmatter) return
+  if (isLocalhost()) return
+
   isDocPage.value = true
 
   if (commentsEl.value) {

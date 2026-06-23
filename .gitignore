@@ -5,3 +5,4 @@ dist
 .vitepress/dist
 .DS_Store
 *.log
+*.pdf
