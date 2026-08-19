@@ -14,7 +14,7 @@ C++于1983年由比雅尼·斯特劳斯特卢普在C语言的基础上开发出�
 
 ### 1.1.2 软件使用
 
-开发环境DEV-CPP的安装教程已经放到我的博客 https://bigbigbigli.com/rjxz.html 了。
+开发环境DEV-CPP的安装教程已经放到我的博客 https://bigbigli.com/rjxz.html 了。
 
 #### 1. 新建源程序
 
