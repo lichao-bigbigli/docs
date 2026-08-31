@@ -5,7 +5,8 @@ export default defineConfig({
   title: '信奥算法学习笔记',
   description: '信奥算法学习笔记 - C++编程、算法、信息学奥赛、知识文库、48课搞定信息学奥赛、常见问题、学习指南、AI、人工智能',
 
-  base: '/docs/',
+  // base: '/docs/',
+  base: '/',
   appearance: true,
   ignoreDeadLinks: true,
   
