@@ -6,9 +6,6 @@ hero:
   text: 信奥算法学习笔记
   actions:
     - theme: brand
-      text: 指南
-      link: /guide/what-is-vitepress
-    - theme: alt
       text: 48课搞定信奥
       link: /48-lessons/
     - theme: alt
