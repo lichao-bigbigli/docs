@@ -1,43 +1,104 @@
-## 关于本书
+# 48课搞定信息学奥赛：C++趣味编程
 
-小伙伴们，你们好！我是李超（B 站：bigbigli_大李）。
-
-得益于我早年录制的"C++信息学奥赛"系列课程在 B 站的传播，我收到了不少想要获得文档的小伙伴的私信，也将电子文档共享给了大家。但该课程并不足以供大家参加 CSP-J，于是我萌生了写一本全面的教程的想法。
-
-基于多年深耕教育领域的产品经理实战经验，我会不自觉地思考这些问题：写这本书的必要性是什么？能给用户带来什么价值？解决用户什么痛点？
-
-2017 年，国内少儿编程刚刚兴起，同时信息学奥赛（简称"信奥"）也在这股浪潮中逐步为大家所熟知，并得以发展。但由于师资力量无法在短时间内复制，各个机构的教学水平参差不齐，部分学生没有接受到良好的信奥教育。
-
-那时我就在想，能不能为这个行业做些什么，来直接或间接推动行业的发展。于是我做了与 NOIP 相关的网站、论坛以及公众号。为了能够在公众号内插入网址，我还注册了一个营业执照。
-
-时隔 8 年之久，到了 2025 年，我还是想为编程教育行业做点什么，这本书便是连接我和这个行业的一条纽带。
-
-由于信息学奥赛涉及复杂的算法和数据结构的知识，初学者很难直接从繁杂的知识点中找到学习的路径。
-
-而本书内容由易到难逐步推进，尽量以小学生能理解的语言描述问题，可以帮助学生从基础开始逐步了解信息学奥赛的知识体系，掌握编程语言、数据结构等基础知识，引导学生顺利入门。
-
-授人以鱼不如授人以渔，本书注重培养学生的逻辑思维和解决问题的能力，通过合理的例题和练习引导学生学会分析问题，让学生在解决实际问题的过程中不断提升做题的思维能力，在遇到相关问题时能够举一反三。
-
-## 面向群体
-
-本书主要面向三个群体。
-
-一是 8 到 14 岁想要参加信息学奥赛的学生。
-
-二是在机构学习的学生，本书共 48 节，每周一节，刚好适配机构一年的教学任务。
-
-三是想要了解 C++ 语言/算法/数据结构的编程爱好者。
-
-## 内容概述
-
-本书共 10 章 48 节，从 C++ 基础语法知识，到一些算法知识，再到赛事中涉及的数学和数据结构的知识，全方面为你的信奥学习保驾护航。
-
-## 如何使用
-
-本书共 48 节，每周花 2 到 4 小时的时间学习一节，除去假日给自己放个小长假，刚好能在一年内学完。本书能让学生在不耽误校内主干课的前提下，多学一门提升自己综合能力的学科。
-
-在学习过程中一定要多实操，看懂了不代表完全学会了，在实操过程中你能发现更多的问题，比如中英文符号混用，单词等不小心打错了，又或者是漏掉了某些头文件。
-
-在实操过程中难免会出现 bug，但千万不要害怕犯错，仔细观察书中代码，一步步跟着演示、对照，发现错误、改正错误，然后总结反思，这样更有助于编程学习能力的提升。
+> 一本专为 CSP-J/S 参赛选手打造的备赛指南，从零基础起步，系统掌握 C++ 编程语言和竞赛算法，最终具备冲击信息学奥赛奖项的能力。
 
 ---
+
+## 📖 购书渠道
+
+### ⭐ 京东购书（推荐）⭐
+
+<div align="center">
+
+<a href="https://union-click.jd.com/jdc?e=618%7Cpc%7C&p=JF8BAS8JK1olXwQBXFZUCEoUBl8IGlsTVQ4GVlpfDUMSAl9MRANLAjZbERscSkAJHTdNTwcKBlMdBgABFksWA2kAE18XWQQHXFtcFxJSXzI4aRgUNFVYKDY4fw9kWg9JRhxzGwFEElJROEonAG4KH1kQXQMCXG5tCEwnQgEBGFoWWjYDZF5bDk8fC2oNHF4UXQIyU15UODlOUyxVTxlIBQcKV1ltOHsUM2gIEk8TL0dQQFgvOHsXM2w4G1oVXA8CUl9dCEkLA28JG1oQQQYEUlpVAE4SBm0PHF8lXwcDUFdtOJWasxwKaF1zVHhGU14tcQp8ShLWlusEIXELUFpZGXtoZBQBYjNDCXRVJ15eVA4VBzx2YQ1sCm5sVjU0exh3ARB9aShhJQFbBAIOOE4nA2kIGWs" target="_blank" style="display:inline-block;padding:12px 36px;background:#e1251b;color:#fff;font-size:18px;font-weight:bold;border-radius:6px;text-decoration:none;">🛒 立即购买（京东）</a>
+
+</div>
+
+> 💡 定价 ¥99.80，京东时常有折扣活动，建议关注优惠。
+
+---
+
+## 📚 内容简介
+
+本书是一本专为 **CSP-J/S 参赛选手**打造的备赛指南，旨在帮助读者从零基础起步，系统掌握 C++ 编程语言和竞赛算法，最终具备冲击信息学奥赛奖项的能力。
+
+全书内容编排科学合理，由浅入深：
+
+- **第 1 章 顺序结构**：程序入门、变量、实数类型、除法和求余、强制类型转换、字符类型与 ASCII 码
+- **第 2 章 选择结构**：单分支 / 双分支 / 嵌套 / 多分支、switch 结构
+- **第 3 章 循环结构**：for 循环、循环求和 / 求积、while 循环、循环中断与继续、循环嵌套
+- **第 4 章 数组与字符串**：一维数组、二维数组、字符串与字符数组
+- **第 5 章 排序算法**：选择排序、冒泡排序
+- **第 6 章 基础算法**：枚举、递推、递归、二分查找、因数与公约数公倍数、质数与合数、一维数组模拟
+- **第 7 章 进阶算法**：贪心算法、深度优先搜索（DFS）、广度优先搜索（BFS）、动态规划（DP）
+- **第 8 章 数据结构**：栈、队列、链表、树、图
+
+本书适合 **8 岁以上对信息学奥赛或 C++ 感兴趣的中小学生**，也适合从事信息学奥赛教学的教师，或作为线下培训机构的教材。
+
+---
+
+## 👨‍🏫 作者简介
+
+**李超（@bigbigli）**
+
+- 资深信息学奥赛教练，中国计算机学会（CCF）官方认证 NOI 指导教师
+- 首位 CCF-PTA 示范课程讲师，CCF-PTA 满分认证讲师
+- 中国自动化学会青少年人工智能活动裁判员
+- 累计学员达 **10 万+**，2024 年单年 CSP-J 集训学员 4000 余名
+- B 站万粉 UP 主，"信息学奥赛"系列教学视频总播放量超 30 万
+
+---
+
+## ✨ 本书特色
+
+- **名师护航**：累计带教超万名信奥学生，深谙学情痛点，教学更具针对性
+- **内容丰富**：严格紧扣信息学奥赛大纲，从 C++ 基础到高阶算法逐层递进，每个知识点均配详细解析，体系完整
+- **趣味易读**：摒弃枯燥说教，采用轻松诙谐语气讲解，降低学习门槛，让孩子轻松投入信奥知识学习
+- **配套完善**：同步配套教学视频、OJ 测评网站，学完即设通关挑战，学练测一体确保知识点熟练掌握
+- **适用广泛**：8 岁以上中小学生可零基础入门，教师可用于教学指导，培训机构也能作为专属教材使用
+
+---
+
+## 🌐 配套资源
+
+| 资源 | 链接 |
+|------|------|
+| OJ 在线测评题库 | <a href="http://oj.bigbigli.com" target="_blank">http://oj.bigbigli.com</a> |
+| 本书官方题库（10 章 48 节，124 道题） | <a href="http://oj.bigbigli.com/training/687d0110186fe298d43e62d6" target="_blank">进入训练</a> |
+| B 站视频教学 | <a href="https://www.bilibili.com/video/BV1if4y1v7oD/" target="_blank">视频教程</a> |
+| C++ 在线编程 | <a href="http://ide.bigbigli.com" target="_blank">http://ide.bigbigli.com</a> |
+| 作者主页 | <a href="https://bigbigli.com" target="_blank">https://bigbigli.com</a> |
+| 算法动画演示 | <a href="http://alg.bigbigli.com" target="_blank">http://alg.bigbigli.com</a> |
+| 源码与课件模板下载 | <a href="https://www.ituring.com.cn/book/3524" target="_blank">图灵社区</a> |
+
+> 💡 使用 OJ 题库前，请先注册账号并登录，点击右侧「参加训练」按钮即可开始刷题。
+
+---
+
+## 💬 媒体评价
+
+> 我非常欣赏李超老师，他无私奉献了自己的时间和精力，整理并公开了很多资料，帮助了很多信息学奥赛教练。我很高兴看到《48课搞定信息学奥赛：C++ 趣味编程》这本书出版。书中为信息学奥赛学习者提供了清晰、系统的学习路径，内容循序渐进，语言平易近人，并提供了很多浅显的例子帮助学生理解概念。期待这本书可以帮助更多的学生和教练。
+>
+> —— **kkksc03，洛谷站长**
+
+---
+
+## 📦 出版信息
+
+- **书名**：48课搞定信息学奥赛：C++ 趣味编程
+- **作者**：李超（@bigbigli）
+- **出版社**：人民邮电出版社
+- **ISBN**：9787115679116
+- **页数**：336 页
+- **出版时间**：2025-09
+- **定价**：¥99.80
+
+---
+
+<div align="center">
+
+## ⬇️ 立即购买 ⬇️
+
+<a href="https://union-click.jd.com/jdc?e=618%7Cpc%7C&p=JF8BAS8JK1olXwQBXFZUCEoUBl8IGlsTVQ4GVlpfDUMSAl9MRANLAjZbERscSkAJHTdNTwcKBlMdBgABFksWA2kAE18XWQQHXFtcFxJSXzI4aRgUNFVYKDY4fw9kWg9JRhxzGwFEElJROEonAG4KH1kQXQMCXG5tCEwnQgEBGFoWWjYDZF5bDk8fC2oNHF4UXQIyU15UODlOUyxVTxlIBQcKV1ltOHsUM2gIEk8TL0dQQFgvOHsXM2w4G1oVXA8CUl9dCEkLA28JG1oQQQYEUlpVAE4SBm0PHF8lXwcDUFdtOJWasxwKaF1zVHhGU14tcQp8ShLWlusEIXELUFpZGXtoZBQBYjNDCXRVJ15eVA4VBzx2YQ1sCm5sVjU0exh3ARB9aShhJQFbBAIOOE4nA2kIGWs" target="_blank" style="display:inline-block;padding:14px 48px;background:#e1251b;color:#fff;font-size:20px;font-weight:bold;border-radius:6px;text-decoration:none;">🛒 京东购买（¥99.80）</a>
+
+</div>
