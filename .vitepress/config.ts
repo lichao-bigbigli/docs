@@ -128,7 +128,7 @@ export default defineConfig({
       // ],
       '/48-lessons/': [
         {
-          text: '看前须知',
+          text: '',
           collapsed: false,
           items: [
             { text: '已出版：购买实体书', link: '/48-lessons/index' },
