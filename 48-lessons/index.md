@@ -68,10 +68,7 @@
 | B 站视频教学 | <a href="https://www.bilibili.com/video/BV1if4y1v7oD/" target="_blank">视频教程</a> |
 | C++ 在线编程 | <a href="http://ide.bigbigli.com" target="_blank">http://ide.bigbigli.com</a> |
 | 作者主页 | <a href="https://bigbigli.com" target="_blank">https://bigbigli.com</a> |
-| 算法动画演示 | <a href="http://alg.bigbigli.com" target="_blank">http://alg.bigbigli.com</a> |
 | 源码与课件模板下载 | <a href="https://www.ituring.com.cn/book/3524" target="_blank">图灵社区</a> |
-
-> 💡 使用 OJ 题库前，请先注册账号并登录，点击右侧「参加训练」按钮即可开始刷题。
 
 ---
 
