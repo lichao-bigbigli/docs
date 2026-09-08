@@ -54,3 +54,19 @@
 | 源码与课件模板下载 | <a href="https://www.ituring.com.cn/book/3524" target="_blank">图灵社区</a> |
 
 ---
+
+---
+
+## 📖 购书渠道
+
+### ⭐ 京东购书（推荐）⭐
+
+<div align="center">
+
+<a href="https://union-click.jd.com/jdc?e=618%7Cpc%7C&p=JF8BAS8JK1olXwQBXFZUCEoUBl8IGlsTVQ4GVlpfDUMSAl9MRANLAjZbERscSkAJHTdNTwcKBlMdBgABFksWA2kAE18XWQQHXFtcFxJSXzI4aRgUNFVYKDY4fw9kWg9JRhxzGwFEElJROEonAG4KH1kQXQMCXG5tCEwnQgEBGFoWWjYDZF5bDk8fC2oNHF4UXQIyU15UODlOUyxVTxlIBQcKV1ltOHsUM2gIEk8TL0dQQFgvOHsXM2w4G1oVXA8CUl9dCEkLA28JG1oQQQYEUlpVAE4SBm0PHF8lXwcDUFdtOJWasxwKaF1zVHhGU14tcQp8ShLWlusEIXELUFpZGXtoZBQBYjNDCXRVJ15eVA4VBzx2YQ1sCm5sVjU0exh3ARB9aShhJQFbBAIOOE4nA2kIGWs" target="_blank" style="display:inline-block;padding:12px 36px;background:#e1251b;color:#fff;font-size:18px;font-weight:bold;border-radius:6px;text-decoration:none;">🛒 立即购买（京东）</a>
+
+</div>
+
+> 💡 定价 ¥99.80，已申请折扣价，建议关注优惠。
+
+---
