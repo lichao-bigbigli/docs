@@ -127,7 +127,15 @@ export default defineConfig({
       //   }
       // ],
       '/48-lessons/': [
-        { text: '前言', link: '/48-lessons/preface' },
+        {
+          text: '',
+          collapsed: true,
+          items: [
+            { text: '已出版：购买实体书', link: '/48-lessons/index' },
+            { text: '前言', link: '/48-lessons/preface' }
+          ]
+        },
+        // { text: '前言', link: '/48-lessons/preface' },
         {
           text: '第1章 顺序结构',
           collapsed: false,
