@@ -11,7 +11,6 @@ export default defineConfig({
   ignoreDeadLinks: true,
   
   head: [
-    ['link', { rel: 'icon', href: '/docs/image.png' }],
     ['link', { rel: 'icon', type: 'image/png', href: '/docs/image.png' }]
   ],
 
