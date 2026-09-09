@@ -40,8 +40,6 @@
 
 在实操过程中难免会出现 bug，但千万不要害怕犯错，仔细观察书中代码，一步步跟着演示、对照，发现错误、改正错误，然后总结反思，这样更有助于编程学习能力的提升。
 
----
-
 ## 🌐 配套资源
 
 | 资源 | 链接 |
@@ -52,8 +50,6 @@
 | C++ 在线编程 | <a href="http://ide.bigbigli.com" target="_blank">http://ide.bigbigli.com</a> |
 | 作者主页 | <a href="https://bigbigli.com" target="_blank">https://bigbigli.com</a> |
 | 源码与课件模板下载 | <a href="https://www.ituring.com.cn/book/3524" target="_blank">图灵社区</a> |
-
----
 
 
 ## 📖 购书渠道
