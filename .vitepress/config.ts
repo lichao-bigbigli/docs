@@ -265,7 +265,7 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/lichao-bigbigli/docs/' },
-      { icon: 'tv-filled', link: 'https://space.bilibili.com/29089660?spm_id_from=333.1007.0.0' }
+      { icon: 'bxs:tv', link: 'https://space.bilibili.com/29089660?spm_id_from=333.1007.0.0' }
     ],
 
     search: {
