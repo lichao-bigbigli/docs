@@ -7,7 +7,7 @@ export default {
     // 对应 .vuepress/public/images/logo.png
     logo: '/docs/image.png',
     // 同时也支持配置夜间模式下的 Logo
-    logoDark: '/images/logo-dark.png',
+    logoDark: '/docs/image.png',
   }),
 }
 
