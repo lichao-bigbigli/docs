@@ -1,15 +1,4 @@
 import { defineConfig } from 'vitepress'
-// .vuepress/config.js
-import { defaultTheme } from '@vuepress/theme-default'
-
-export default {
-  theme: defaultTheme({
-    // 对应 .vuepress/public/images/logo.png
-    logo: '/docs/image.png',
-    // 同时也支持配置夜间模式下的 Logo
-    logoDark: '/docs/image.png',
-  }),
-}
 
 export default defineConfig({
   lang: 'zh-CN',
