@@ -47,11 +47,11 @@
 | 资源 | 链接 |
 |------|------|
 | OJ 在线测评题库 | <a href="http://oj.bigbigli.com" target="_blank">http://oj.bigbigli.com</a> |
-| 本书官方题库（10 章 48 节，124 道题） | <a href="http://oj.bigbigli.com/training/687d0110186fe298d43e62d6" target="_blank">进入训练</a> |
-| B 站视频教学 | <a href="https://www.bilibili.com/video/BV1if4y1v7oD/" target="_blank">视频教程</a> |
-| C++ 在线编程 | <a href="http://ide.bigbigli.com" target="_blank">http://ide.bigbigli.com</a> |
-| 作者主页 | <a href="https://bigbigli.com" target="_blank">https://bigbigli.com</a> |
-| 源码与课件模板下载 | <a href="https://www.ituring.com.cn/book/3524" target="_blank">图灵社区</a> |
+| 本书官方题库（10 章 48 节，124 道题） | <a href="oj.bigbigli.com/training/687d0110186fe298d43e62d6" target="_blank">进入训练</a> |
+| B 站视频教学 | <a href="www.bilibili.com/video/BV1if4y1v7oD/" target="_blank">视频教程</a> |
+| C++ 在线编程 | <a href="ide.bigbigli.com" target="_blank">http://ide.bigbigli.com</a> |
+| 作者主页 | <a href="bigbigli.com" target="_blank">https://bigbigli.com</a> |
+| 源码与课件模板下载 | <a href="www.ituring.com.cn/book/3524" target="_blank">图灵社区</a> |
 
 
 ## 📖 购书渠道
