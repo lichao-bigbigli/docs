@@ -54,9 +54,9 @@
 | 源码与课件模板下载 | <a href="www.ituring.com.cn/book/3524" target="_blank">图灵社区</a> |
 
 
-## 📖 购书渠道
+## 纸质书购买
 
-### ⭐ 京东购书（推荐）⭐
+### 京东购书（推荐）
 
 <div align="center">
 
