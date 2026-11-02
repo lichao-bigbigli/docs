@@ -76,7 +76,7 @@
 
 <div align="center">
 
-## ⬇️ 立即购买 ⬇️
+## 立即购买
 
 <a href="https://union-click.jd.com/jdc?e=618%7Cpc%7C&p=JF8BAS8JK1olXwQBXFZUCEoUBl8IGlsTVQ4GVlpfDUMSAl9MRANLAjZbERscSkAJHTdNTwcKBlMdBgABFksWA2kAE18XWQQHXFtcFxJSXzI4aRgUNFVYKDY4fw9kWg9JRhxzGwFEElJROEonAG4KH1kQXQMCXG5tCEwnQgEBGFoWWjYDZF5bDk8fC2oNHF4UXQIyU15UODlOUyxVTxlIBQcKV1ltOHsUM2gIEk8TL0dQQFgvOHsXM2w4G1oVXA8CUl9dCEkLA28JG1oQQQYEUlpVAE4SBm0PHF8lXwcDUFdtOJWasxwKaF1zVHhGU14tcQp8ShLWlusEIXELUFpZGXtoZBQBYjNDCXRVJ15eVA4VBzx2YQ1sCm5sVjU0exh3ARB9aShhJQFbBAIOOE4nA2kIGWs" target="_blank" style="display:inline-block;padding:14px 48px;background:#36BFA8;color:#fff;font-size:20px;font-weight:bold;border-radius:6px;text-decoration:none;">🛒 京东购买 </a>
 
