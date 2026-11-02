@@ -131,8 +131,8 @@ export default defineConfig({
           text: '看前须知',
           collapsed: false,
           items: [
-            { text: '前言', link: '/48-lessons/preface' },
-            { text: '购买实体书', link: '/48-lessons/index' }
+            { text: '前言', link: '/48-lessons/index' },
+            { text: '购买实体书', link: '/48-lessons/preface' }
           ]
         },
         // { text: '前言', link: '/48-lessons/preface' },
